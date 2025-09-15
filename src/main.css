@@ -1,0 +1,119 @@
+⁠*{
+  box-sizing: border-box; /*Que se cuenta el border al total del tamaño de la caja contenedora*/
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+body{
+    padding:0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>a>img{
+    width: 160px;
+}
+
+nav>ul{
+    display: flex;
+    gap: 40px;
+}
+
+main{
+    text-align: center;
+}
+
+.section-hero{
+    height: 750px;
+    width: 100%;
+    background-color: #0a174b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title{
+    max-width: 500px;
+}
+
+.section-description{
+    max-width: 600px;
+}
+
+.team{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-members{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECTION FORM */
+.section-form{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-form-content{
+    width: 480px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-form{
+    width: 100%;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    width: 100%;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+footer{
+    text-align: center;
+}
