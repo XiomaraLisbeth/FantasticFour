@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Los 4 Fantásticos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
         <a>
@@ -32,89 +34,104 @@
     <main>
         <section id="hero" class="section-hero">
             <div class="hero-content">
-                <h1>Un equipo que redefine lo imposible. Los 4 Fantásticos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloribus repellendus, explicabo perferendis sequi, corporis accusantium incidunt cupiditate repudiandae quae officiis, eum exercitationem! Deleniti laboriosam assumenda distinctio, voluptatibus ex amet.</p>
+                <h1 class="hero-title">Un equipo que redefine lo imposible. Los 4 Fantásticos</h1>
+                <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloribus repellendus, explicabo perferendis sequi, corporis accusantium incidunt cupiditate repudiandae quae officiis, eum exercitationem! Deleniti laboriosam assumenda distinctio, voluptatibus ex amet.</p>
             </div>
         </section>
 
-        <section id="team" class="team">
-            <div class="team-content">
+        <section id="team" class="section-team">
+            <div class="section-content">
                 <h2 class="section-title">Conoce a nuestro equipo</h2>
                 <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro beatae, quidem, tempore eum pariatur iste voluptatem dolor error, eaque temporibus ipsa mollitia ut! Deleniti voluptatem id totam quas itaque!</p>
 
-                <div class="team-members">
-                    <article id="personaje" class="card-personaje">
-                        <img src="" alt="">
-                        <h3>Mr. Fantástico</h>
-                        <p>Reed Richards</p>
+                <div class="section-cards">
+                    <article class="card-member">
+                        <img src="./assets/img/reed-richards.png" alt="Reed Richards - Mr. Fantástico" class="member-picture">
+                        <h3 class="card-name">Mr. Fantástico</h3>
+                        <p class="card-info">Reed Richards</p>
                     </article>
-                    <article id="personaje" class="card-personaje">
-                        <img src="" alt="">
-                        <h3>La Mujer Invisible</h3>
-                        <p>Sue Storm</p>
+                    <article class="card-member">
+                        <img src="./assets/img/susan-storm.png" alt="Susan Storm - La Mujer Invisible" class="member-picture">
+                        <h3 class="card-name">La Mujer Invisible</h3>
+                        <p class="card-info">Sue Storm</p>
                     </article>
-                    <article id="personaje" class="card-personaje">
-                        <img src="" alt="">
-                        <h3>La Antorcha Humana</h3>
-                        <p>Johnny Storm</p>
+                    <article class="card-member">
+                        <img src="./assets/img/jonathan-storm.png" alt="Jonathan Storm - La Antorcha Humana" class="member-picture">
+                        <h3 class="card-name">La Antorcha Humana</h3>
+                        <p class="card-info">Johnny Storm</p>
                     </article>
-                    <article id="personaje" class="card-personaje">
-                        <img src="" alt="">
-                        <h3>La Mole</h3>
-                        <p>Ben Grimm</p>
+                    <article class="card-member">
+                        <img src="./assets/img/benjamin-grimm.png" alt="Benjamin Grimm - La Mole" class="member-picture">
+                        <h3 class="card-name">La Mole</h3>
+                        <p class="card-info">Ben Grimm</p>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="villanos">
-            <h2>Villanos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro beatae, quidem, tempore eum pariatur iste voluptatem dolor error, eaque temporibus ipsa mollitia ut! Deleniti voluptatem id totam quas itaque!</p>
-            <article id="villano">
-                <img src="" alt="">
-                <h3>Villano 1</h3>
-                <p>Nombre real</p>
-            </article>
-            <article id="villano">
-                <img src="" alt="">
-                <h3>Villano 2</h3>
-                <p>Nombre real</p>
-            </article>
-            <article id="villano">
-                <img src="" alt="">
-                <h3>Villano 3</h3>
-                <p>Nombre real</p>
-            </article>
-            <article id="villano">
-                <img src="" alt="">
-                <h3>Villano 4</h3>
-                <p>Nombre real</p>
-            </article>
+        <section id="villains" class="section-villains">
+            <div class="section-content">
+                <h2 class="section-title">Villanos</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro beatae, quidem, tempore eum pariatur iste voluptatem dolor error, eaque temporibus ipsa mollitia ut! Deleniti voluptatem id totam quas itaque!</p>
+                
+                <div class="section-cards">
+                    <article class="card-member">
+                        <img src="./assets/img/dr-doom.png" alt="Dr. Doom" class="member-picture">
+                        <h3 class="card-name">Doctor Doom</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                    <article class="card-member">
+                        <img src="./assets/img/galactus.png" alt="Galactus" class="member-picture">
+                        <h3 class="card-name">Galactus</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                    <article class="card-member">
+                        <img src="./assets/img/annihilus.png" alt="Annihilus" class="member-picture">
+                        <h3 class="card-name">Annihilus</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                    <article class="card-member">
+                        <img src="./assets/img/super-skrull.png" alt="Super Skrull" class="member-picture">
+                        <h3 class="card-name">Super Skrull</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section id="adaptaciones">
-            <h2>Adaptaciones</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro beatae, quidem, tempore eum pariatur iste voluptatem dolor error, eaque temporibus ipsa mollitia ut! Deleniti voluptatem id totam quas itaque!</p>
-            <article id="pelicula">
-                <img src="" alt="">
-                <h3>Película 1</h3>
-                <p>Nombre real</p>
-            </article>
-            <article id="pelicula">
-                <img src="" alt="">
-                <h3>Película 2</h3>
-                <p>Nombre real</p>
-            </article>
-            <article id="pelicula">
-                <img src="" alt="">
-                <h3>Película 3</h3>
-                <p>Nombre real</p>
-            </article>
+        <section id="movies" class="section-movies">
+            <div class="section-content">
+                <h2 class="section-title">Adaptaciones</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro beatae, quidem, tempore eum pariatur iste voluptatem dolor error, eaque temporibus ipsa mollitia ut! Deleniti voluptatem id totam quas itaque!</p>
+            
+                <div class="section-cards">
+                    <article class="card-member">
+                        <img src="./assets/img/pelicula-1.png" alt="Los 4 Fantásticos (2025)" class="member-picture">
+                        <h3 class="card-name">Película 1</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                    <article class="card-member">
+                        <img src="./assets/img/pelicula-2.png" alt="Los 4 Fantásticos (2020)" class="member-picture">
+                        <h3 class="card-name">Película 2</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                    <article class="card-member">
+                        <img src="./assets/img/pelicula-3.png" alt="Los 4 Fantásticos (2004)" class="member-picture">
+                        <h3 class="card-name">Película 3</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                    <article class="card-member">
+                        <img src="./assets/img/pelicula-4.png" alt="Los 4 Fantásticos (1990)" class="member-picture">
+                        <h3 class="card-name">Película 3</h3>
+                        <p class="card-info">Nombre real</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section id="suscribirse" class="section-form">
+        <section id="suscribe" class="section-form">
             <div class="section-form-content">
-                <h2>Únete a la comunidad</h2>
+                <h2 class="section-title">Únete a la comunidad</h2>
             
                 <form action="" method="post" class="main-form">
                     <div class="form-input">
@@ -133,8 +150,10 @@
     </main>
 
     <footer>
-        <p>Los 4 Fantásticos. Todos los derechos reservados 2025.</p>
-        <p>Hecho por Xiomara Hurtado.</p>
+        <p class="copyright">Los 4 Fantásticos. Todos los derechos reservados 2025.</p>
+        <p class="creator">Hecho por Xiomara Hurtado.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
