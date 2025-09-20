@@ -17,6 +17,9 @@ header{
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 header>a>img{
@@ -26,6 +29,13 @@ header>a>img{
 nav>ul{
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: #3a424f;
 }
 
 main{
@@ -182,7 +192,7 @@ main{
 footer{
     width: 100%;
     padding: 16px;
-    background-color: rgb(1, 26, 58);
+    background-color: #011a3a;
     color: white;
     display: flex;
     justify-content: space-between;
