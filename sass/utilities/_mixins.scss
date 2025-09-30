@@ -1,0 +1,16 @@
+@import 'animation';
+@include heart-beat-keyframes;
+
+@mixin respond-to($width) {
+    @media only screen and (min-width: $width) {
+        @content; 
+    }
+}
+
+@mixin apply-heart-beat($duration: 1.5s, $delay: 0s, $name: heart-pulse) {
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: $delay;
+}

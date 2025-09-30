@@ -1,0 +1,17 @@
+@mixin heart-beat-keyframes($name: heart-pulse, $scale-max: 1.05) {
+    @keyframes #{$name} {
+        0%,
+        100% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale($scale-max);
+        }
+        50% {
+            transform: scale(1);
+        }
+        75% {
+            transform: scale(1.02);
+        }
+    }
+}
